@@ -1,7 +1,7 @@
 #!/run/current-system/sw/bin/bash
 # Repeatedly ping a host and play different tones for success vs failure.
-# Usage: ./self.sh target [interval_seconds] [timeout_seconds]
-# Example: ./self.sh 8.8.8.8 1 1
+# Usage: ./bing.sh target [interval_seconds] [timeout_seconds]
+# Example: ./bing.sh 8.8.8.8 1 1
 
 TARGET="${1:-8.8.8.8}"
 INTERVAL="${2:-1}"   # seconds between pings
